@@ -8,9 +8,9 @@
     <PackageId>MCStatus.IO.NET</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Jordan Webster</Authors>
-    <Description>MCStatus.IO.NET is a library which wraps around the mcstatus.io API. It is developed very similar to the node-mcstatus npm package. It's essentially the same just ported to .NET.</Description>
+    <Description>An unofficial .NET library for interacting with the https://mcstatus.io API.</Description>
     <Copyright>Copyright (c) Jordan Webster 2026</Copyright>
-    <PackageProjectUrl>https://github.com/JordanW9232/MCStatus.IO.NET</PackageProjectUrl>
+    <PackageProjectUrl>https://mcstatus.io</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Initial 1.0.0 release</PackageReleaseNotes>
     <PackageTags>minecraft, mcstatus</PackageTags>
