@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCStatus.IO.NET", "MCStatus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCStatus.IO.NET.Tests", "MCStatus.IO.NET.Tests\MCStatus.IO.NET.Tests.csproj", "{602F69DC-48B3-4097-9A95-F98C55FF2998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCStatus.IO.NET.Console", "MCStatus.IO.NET.Console\MCStatus.IO.NET.Console.csproj", "{A368E5DE-350C-4FA0-A993-0F78900F7BBF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +18,5 @@ Global
 		{602F69DC-48B3-4097-9A95-F98C55FF2998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602F69DC-48B3-4097-9A95-F98C55FF2998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{602F69DC-48B3-4097-9A95-F98C55FF2998}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A368E5DE-350C-4FA0-A993-0F78900F7BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A368E5DE-350C-4FA0-A993-0F78900F7BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A368E5DE-350C-4FA0-A993-0F78900F7BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A368E5DE-350C-4FA0-A993-0F78900F7BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
