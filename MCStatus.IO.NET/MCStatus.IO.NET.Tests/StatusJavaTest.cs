@@ -8,7 +8,7 @@ public class StatusJavaTest
   [Test]
   public async Task StatusJava()
   {
-    var result = await MCStatus.StatusJava(Host, Port);
+    var result = await MCStatusClient.StatusJava(Host, Port);
 
     // result.Host
     Assert.That(result.Host.Length, Is.GreaterThan(0));

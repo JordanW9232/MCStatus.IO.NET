@@ -8,7 +8,7 @@ public class StatusBedrockTest
   [Test]
   public async Task StatusBedrock()
   {
-    var result = await MCStatus.StatusBedrock(Host, Port);
+    var result = await MCStatusClient.StatusBedrock(Host, Port);
 
     // result.Host
     Assert.That(result.Host.Length, Is.GreaterThan(0));

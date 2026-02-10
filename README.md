@@ -18,7 +18,7 @@ var options = new JavaStatusOptions()
 // arguments are optional.
 try
 {
-  var result = await MCStatus.StatusJava(host, port, options);
+  var result = await MCStatusClient.StatusJava(host, port, options);
   // `result` will be the same shape and 
   // properties as what is documented on
   // our website.
@@ -46,7 +46,7 @@ var port = 19132;
 // arguments are optional.
 try
 {
-  var result = await MCStatus.StatusBedrock(host, port, options);
+  var result = await MCStatusClient.StatusBedrock(host, port, options);
   // `result` will be the same shape and 
   // properties as what is documented on
   // our website.
