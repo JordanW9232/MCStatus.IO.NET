@@ -2,7 +2,7 @@
 
 public class StatusJavaTest
 {
-  private const string Host = "demo.mcstats.io";
+  private const string Host = "demo.mcstatus.io";
   private const int Port = 25565;
 
   [Test]
