@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MCStatus.IO.NET</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Jordan Webster</Authors>
+    <Description>MCStatus.IO.NET is a library which wraps around the mcstatus.io API. It is developed very similar to the node-mcstatus npm package. It's essentially the same just ported to .NET.</Description>
+    <Copyright>Copyright (c) Jordan Webster 2026</Copyright>
+    <PackageProjectUrl>https://github.com/JordanW9232/MCStatus.IO.NET</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Initial 1.0.0 release</PackageReleaseNotes>
+    <PackageTags>minecraft, mcstatus</PackageTags>
+    <RepositoryUrl>https://github.com/JordanW9232/MCStatus.IO.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+</Project>

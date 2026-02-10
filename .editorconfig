@@ -1,0 +1,32 @@
+root = true
+# Editor configuration, see https://editorconfig.org
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Microsoft .NET properties
+csharp_indent_braces = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_open_brace = accessors, control_blocks, events, indexers, local_functions, methods, properties, types
+
+# ReSharper properties
+resharper_csharp_empty_block_style = together
+resharper_csharp_wrap_after_declaration_lpar = true
+resharper_csharp_wrap_parameters_style = chop_if_long
+resharper_instance_members_qualify_declared_in = base_class
+resharper_place_accessorholder_attribute_on_same_line = false
+resharper_place_expr_property_on_single_line = true
+resharper_wrap_object_and_collection_initializer_style = chop_always
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+[*.txt]
+max_line_length = off
+trim_trailing_whitespace = false
+insert_final_newline = false
