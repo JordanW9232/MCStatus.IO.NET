@@ -3,7 +3,7 @@
 public abstract class StatusOptions
 {
   public string? BaseUrl { get; set; }
-  public int? Timeout { get; set; }
+  public float? Timeout { get; set; }
 
   public virtual string AsQueryParams()
   {

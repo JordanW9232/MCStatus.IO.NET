@@ -19,6 +19,12 @@ public class StatusBedrockTest
     Assert.That(result.Port, Is.LessThanOrEqualTo(65535));
     Assert.That(result.Port, Is.EqualTo(Port));
 
+    // result.IpAddress
+    if (result.IpAddress != null)
+    {
+      Assert.That(result.IpAddress.Length, Is.GreaterThan(0));
+    }
+
     // result.RetrievedAt
     Assert.That(result.RetrievedAt, Is.GreaterThan(0));
 
